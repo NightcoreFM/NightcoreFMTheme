@@ -1,0 +1,75 @@
+//META{"name":"Nightcore FM","description":"Theme based on Nightcore FM Discord Server & YT Channel https://www.youtube.com/c/NightcoreMore","author":"Jamie","version":"1.13.05"}*//{}
+
+
+
+/*
+background when menu open
+*/
+.app { background-image: url("https://i.imgur.com/2YzPQHV.jpg") !important; background-size: fit !important; }
+.callout-backdrop { background: none !important; background-image: url("https://i.imgur.com/fGzrNFF.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
+
+.channels-wrap:after{
+  width: 100%;
+  height: 32px;
+  background: var(--a-black-light);
+  content: "Nightcore FM 1.13.05 - By Jamie#3542 and Sans#4130";
+  color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 6px;
+  margin-top: 1px;
+}
+
+@font-face{
+	font-family: 'Squarex';
+	src: url('https://download1638.mediafire.com/vkzlkz26bkmg/77ede1iywh2s7y4/Squarex+St.ttf');
+	font-weight: 600;
+}
+
+body {
+	color: rgba(80, 80, 80, 0.2);
+	font-family: 'Squarex';
+	background: url(https://i.imgur.com/fGzrNFF.png) !important;
+	background-size: cover !important;
+}
+
+.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-settings-modal-members {
+    background: none !important;
+}
+
+.friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, 
+.channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .callout-backdrop, .markup code.inline, 
+.markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller-guilds > .guild:hover > .roles > 
+.scroller-wrap-fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > 
+.member:hover, .scroller-guild-channels > .channel:hover, .private-channels > .search-result:hover, 
+.guilds-wrapper > .scroller-wrap > .scroller-guilds > .guild > div > .guild-inner, 
+.member.member-status-online-popout-open
+}
+
+.divider > span, .divider > div, .unread::before, .selected::before, .tooltip, .settings-header, .btn-primary, .tab-bar-item.selected:before, .btn.btn-primary, #user-profile-modal > header, .new-messages-bar, #user-profile-modal > footer, .region-select:hover > button, .popout-menu-item:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild.selected > div > .guild-inner {
+    background: rgb(0, 88, 117) !important;
+    color: white !important;
+}
+
+.chat .title-wrap {
+background-color: rgba(0, 0, 0, 0.2) !important;
+border-bottom: 1px solid transparent !important;
+}
+
+.channel-members {
+background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.chat .title-wrap {
+background-color: rgba(0, 0, 0, 0.2) !important;
+border-bottom: 1px solid transparent !important;
+}
+
+.guild-channels .channel-text.selected {
+background: linear-gradient(45deg,rgba(0,200,255, 0.5) 50%,rgba(0,162,207,0.02));
+}
+
+/*
+.guild-channels .channel-text.selected {
+background: linear-gradient(90deg,rgba(255, 0, 0, 0.5) 20%,rgba(255, 246, 0, 0.5));
+}*/
